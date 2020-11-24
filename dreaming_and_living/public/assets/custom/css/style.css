@@ -2004,7 +2004,7 @@ input[type='submit'],
     .cbp-af-header .subtitle span {
       position: relative;
       left: -50%;
-      color: #737373; }
+      color: #55edde; }
   .cbp-af-header .nav-decor-left {
     position: absolute;
     bottom: 15px;
@@ -2052,7 +2052,7 @@ input[type='submit'],
   .navbar .navbar-nav > li.open > a:focus:before {
     color: #e8566d; }
 .navbar .navbar-toggle .icon-bar {
-  background-color: #303030; }
+  background-color: #0abfbc; }
 
 .navbar.header-light h1 a {
   color: #fff; }

@@ -1,52 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<!--[if IE 9]>
-<html class="ie9" lang="en">    <![endif]-->
-<!--[if IE 8]>
-<html class="ie8" lang="en">    <![endif]-->
-<head>
-
-   <title>Dreaming and Living | The Blog Html5 Template</title>
-
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name=viewport content="width=device-width, initial-scale=1">
-   <meta name="description" content="">
-   <meta name="keywords" content="">
-
-   <link rel=icon href=favicon.ico sizes="16x16" type="image/png">
-
-   <!-- Preloader css must be first -->
-   <link href="assets/custom/css/preloader.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-
-   <!-- JS -->
-   <script src="assets/vendor/animatedheader/js/modernizr.custom.js"></script>
-
-   <!-- CSS -->
-   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-   <link href="assets/vendor/fontawesome/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-   <link href="assets/vendor/owl-carousel/assets/owl.carousel.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-
-   <link href="assets/custom/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-
-   <!-- Google Analytics -->
-   <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-40696437-14', 'auto');
-      ga('send', 'pageview');
-   </script>
-   <script async src='//www.google-analytics.com/analytics.js'></script>
-   <!-- End Google Analytics -->
-
-</head>
-
-<body class="boxed">
-
-<!--Pre-Loader-->
-<div id="preloader"><img src="assets/custom/images/preloader.gif" alt="01"></div>
-<!--/Pre-Loader-->
-
-<div id="wrapper" class="">
+<x-layout>
+  
 
    <!-- Content -->
    <div id="page-content-wrapper" class="content-wrap">
@@ -58,7 +11,7 @@
                <div class="container">
                   <!-- Brand and toggle get grouped for better mobile display -->
                   <div class="navbar-header">
-                     <h1 class="text-center"><a href="index.html">Dreaming and Living </a></h1>
+                     <h1 class="text-center"><a href="index.html" style="color: #0abfbc">Dreaming and Living </a></h1>
                      <span class="small subtitle"><span class="lined">All in a lifetime</span></span>
                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -69,7 +22,7 @@
                   </div>
                </div>
                <div class="container">
-                  <div class="bordered">
+                  <div class="bordered" style="background-color: #05f5f1; color: whitesmoke">
                      <!-- Collect the nav links, forms, and other content for toggling -->
                      <nav class="collapse navbar-collapse navbar-ex1-collapse e-centered">
                         <!--<i class="nav-decor-left flaticon-christmas-rose"></i>-->
@@ -101,7 +54,7 @@
       <!-- Content Sections -->
       <div id="content">
 
-         <!--Owl Carousel-->
+         <!--
          <section id="owl-carousel">
             <div class="container">
                <div class="owl-carousel owl-theme">
@@ -117,7 +70,7 @@
                            </div>
                         </div>
                      </div>
-                     <img src="assets/custom/images/backgrounds/resent-01.jpg" class="img-responsive" alt="01">
+                     <img src="/assets/custom/images/backgrounds/resent-01.jpg" class="img-responsive" alt="01">
                   </div>
 
                   <div class="item">
@@ -131,7 +84,7 @@
                               </div>
                           </div>
                       </div>
-                      <img src="assets/custom/images/backgrounds/06.jpg" class="img-responsive" alt="01">
+                      <img src="/assets/custom/images/backgrounds/06.jpg" class="img-responsive" alt="01">
                   </div>
 
                   <div class="item">
@@ -145,7 +98,7 @@
                               </div>
                           </div>
                       </div>
-                      <img src="assets/custom/images/backgrounds/07.jpg" class="img-responsive" alt="01">
+                      <img src="/assets/custom/images/backgrounds/07.jpg" class="img-responsive" alt="01">
                   </div>
 
                   <div class="item">
@@ -159,14 +112,16 @@
                               </div>
                           </div>
                       </div>
-                      <img src="assets/custom/images/backgrounds/08.jpg" class="img-responsive" alt="01">
+                      <img src="/assets/custom/images/backgrounds/08.jpg" class="img-responsive" alt="01">
                   </div>
 
                </div>
             </div>
             <div class="e-divider-6"></div>
          </section>
-         <!--/Owl Carousel-->
+         <!--/Owl Carousel
+
+         -->
 
          <!-- Post Feed -->
          <section id="articles" class="post-grid">
@@ -181,7 +136,7 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <a href="blog-post.html">
-                                    <img class="img-responsive" src="assets/custom/images/demo01/10.jpg" alt="01">
+                                    <img class="img-responsive" src="/assets/custom/images/demo01/10.jpg" alt="01">
                                  </a>
                               </div>
                               <div class="post-detail">
@@ -208,7 +163,7 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <a href="blog-post.html">
-                                    <img class="img-responsive" src="assets/custom/images/demo01/02.jpg" alt="01">
+                                    <img class="img-responsive" src="/assets/custom/images/demo01/02.jpg" alt="01">
                                  </a>
                               </div>
                               <div class="post-detail">
@@ -287,7 +242,7 @@
 
                         <article id="05" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/03.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/03.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -310,7 +265,7 @@
 
                         <article id="06" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/08.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/08.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Holidays</a>
@@ -335,10 +290,10 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <div class="owl-carousel owl-theme">
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/09.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/11.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/03.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/01.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/09.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/11.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/03.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/01.jpg" alt="01"></div>
                                  </div>
                               </div>
                               <div class="post-detail">
@@ -363,7 +318,7 @@
 
                         <article id="08" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/05.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/05.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Travel</a>
@@ -386,7 +341,7 @@
 
                         <article id="09" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/09.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/09.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Europe &nbsp;/</a>&nbsp;<a href="#!" rel="category tag">Travel</a>
@@ -436,7 +391,7 @@
 
                         <article id="11" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/11.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/11.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -459,7 +414,7 @@
 
                         <article id="12" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/07.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/07.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -484,7 +439,7 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <a href="blog-post.html">
-                                    <img class="img-responsive" src="assets/custom/images/demo01/10.jpg" alt="01">
+                                    <img class="img-responsive" src="/assets/custom/images/demo01/10.jpg" alt="01">
                                  </a>
                               </div>
                               <div class="post-detail">
@@ -511,7 +466,7 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <a href="blog-post.html">
-                                    <img class="img-responsive" src="assets/custom/images/demo01/02.jpg" alt="01">
+                                    <img class="img-responsive" src="/assets/custom/images/demo01/02.jpg" alt="01">
                                  </a>
                               </div>
                               <div class="post-detail">
@@ -590,7 +545,7 @@
 
                         <article id="17" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/03.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/03.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -613,7 +568,7 @@
 
                         <article id="18" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/08.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/08.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Holidays</a>
@@ -638,10 +593,10 @@
                            <div class="box">
                               <div class="img-wrap">
                                  <div class="owl-carousel owl-theme">
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/09.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/11.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/03.jpg" alt="01"></div>
-                                    <div class="item"><img class="img-responsive" src="assets/custom/images/demo01/01.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/09.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/11.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/03.jpg" alt="01"></div>
+                                    <div class="item"><img class="img-responsive" src="/assets/custom/images/demo01/01.jpg" alt="01"></div>
                                  </div>
                               </div>
                               <div class="post-detail">
@@ -666,7 +621,7 @@
 
                         <article id="20" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/05.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/05.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Travel</a>
@@ -689,7 +644,7 @@
 
                         <article id="21" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/09.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/09.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Europe &nbsp;/</a>&nbsp;<a href="#!" rel="category tag">Travel</a>
@@ -739,7 +694,7 @@
 
                         <article id="23" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/11.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/11.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -762,7 +717,7 @@
 
                         <article id="24" class="post-block col-md-6 post hentry">
                            <div class="box">
-                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="assets/custom/images/demo01/07.jpg" alt="01"></a></div>
+                              <div class="img-wrap"><a href="blog-post.html"><img class="img-responsive" src="/assets/custom/images/demo01/07.jpg" alt="01"></a></div>
                               <div class="post-detail">
                                  <div class="meta-cat">
                                     <a href="#!" rel="category tag">Uncategorized</a>
@@ -809,7 +764,7 @@
                         <aside id="about-widget" class="widget widget_about">
                            <div class="text-center widget-wrap">
                               <div class="e-divider-4"></div>
-                              <img class="img-circle  author-img" src="assets/custom/images/userpic05.jpg" alt="01">
+                              <img class="img-circle  author-img" src="/assets/custom/images/userpic05.jpg" alt="01">
                               <div class="e-divider-3"></div>
                               <h5 class="hello">Hi! I am Dreaming and Living</h5>
                               <p>Working as a fashion designer can just as well mean supervising a design team at a sportswear company as producing a label under your own name. </p>
@@ -847,7 +802,7 @@
                            <div class="title widget-title lined">Recent Post</div>
                            <div>
                               <div class="media">
-                                 <div class="media-left"><a href="#!"><img class="media-object" src="assets/custom/images/resent-01.jpg" alt="01"></a></div>
+                                 <div class="media-left"><a href="#!"><img class="media-object" src="/assets/custom/images/resent-01.jpg" alt="01"></a></div>
                                  <div class="media-body">
                                     <span class="meta-date">29 July 2015</span>
                                     <h4 class="media-heading">
@@ -857,7 +812,7 @@
                               </div>
                               <div class="media">
                                  <div class="media-left">
-                                    <a href="#!"><img class="media-object" src="assets/custom/images/resent-02.jpg" alt="01"></a>
+                                    <a href="#!"><img class="media-object" src="/assets/custom/images/resent-02.jpg" alt="01"></a>
                                  </div>
                                  <div class="media-body"><h4 class="media-heading">
                                     <span class="meta-date">22 July 2015</span>
@@ -867,7 +822,7 @@
                               <div class="media">
                                  <div class="media-left">
                                     <a href="#!">
-                                       <img class="media-object" src="assets/custom/images/resent-03.jpg" alt="01">
+                                       <img class="media-object" src="/assets/custom/images/resent-03.jpg" alt="01">
                                     </a>
                                  </div>
                                  <div class="media-body">
@@ -886,15 +841,15 @@
                            <div class="title widget-title lined">Instagram</div>
                            <div>
                               <div class="media">
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12328429_1661245097460326_255494091_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12599154_962398730508083_979241627_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12677660_174383292934538_1188800865_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12716546_444262579096572_467284739_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12819136_834492543346861_161860596_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/12826108_260008874330168_1360366906_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/13098928_1102771833111874_1789875443_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/13108705_1780772878824561_1506041613_n.jpg" class="img-responsive" alt="01"></div>
-                                 <div class="media-body"><img src="assets/custom/images/instagram/13181405_1079602612133517_832563465_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12328429_1661245097460326_255494091_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12599154_962398730508083_979241627_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12677660_174383292934538_1188800865_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12716546_444262579096572_467284739_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12819136_834492543346861_161860596_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/12826108_260008874330168_1360366906_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/13098928_1102771833111874_1789875443_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/13108705_1780772878824561_1506041613_n.jpg" class="img-responsive" alt="01"></div>
+                                 <div class="media-body"><img src="/assets/custom/images/instagram/13181405_1079602612133517_832563465_n.jpg" class="img-responsive" alt="01"></div>
                               </div>
                            </div>
                            <div class="e-divider-4"></div>
@@ -961,12 +916,12 @@
                </div>
                <div class="e-divider-4"></div>
                <div class="row nopadding">
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12328429_1661245097460326_255494091_n.jpg" class="img-responsive" alt="01"></div>
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12599154_962398730508083_979241627_n.jpg" class="img-responsive" alt="01"></div>
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12677660_174383292934538_1188800865_n.jpg" class="img-responsive" alt="01"></div>
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12716546_444262579096572_467284739_n.jpg" class="img-responsive" alt="01"></div>
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12819136_834492543346861_161860596_n.jpg" class="img-responsive" alt="01"></div>
-                  <div class="col-md-2 col-xs-6 nopadding"><img src="assets/custom/images/instagram/12826108_260008874330168_1360366906_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12328429_1661245097460326_255494091_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12599154_962398730508083_979241627_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12677660_174383292934538_1188800865_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12716546_444262579096572_467284739_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12819136_834492543346861_161860596_n.jpg" class="img-responsive" alt="01"></div>
+                  <div class="col-md-2 col-xs-6 nopadding"><img src="/assets/custom/images/instagram/12826108_260008874330168_1360366906_n.jpg" class="img-responsive" alt="01"></div>
                </div>
             </div>
          </section>
@@ -1078,26 +1033,5 @@
 
    </div>
    <!-- /Content -->
+</x-layout>
 
-</div>
-
-
-<div id="image-cache" class="hidden"></div>
-
-
-<!-- JS -->
-<script src="assets/vendor/jquery/js/jquery-2.2.0.min.js" type="text/javascript"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="assets/vendor/animatedheader/js/classie.js"></script>
-<script src="assets/vendor/animatedheader/js/cbpAnimatedHeader.min.js"></script>
-<script src="https://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script src="assets/vendor/sticky-scroll/js/jquery.stickit.min.js" type="text/javascript"></script>
-<script src="assets/vendor/imagesloaded/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-<script src="assets/vendor/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
-
-
-<!-- Custom scripts -->
-<script src="assets/custom/js/script.js" type="text/javascript"></script>
-
-</body>
-</html>
